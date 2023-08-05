@@ -57,7 +57,7 @@ bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
-bindsym Alt+Tab exec --no-startup-id rofi -show window
+#bindsym Alt+Tab exec --no-startup-id rofi -show window
 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
@@ -216,9 +216,12 @@ bindsym $mod+Shift+s exec flameshot gui
 #dunst
 exec_always --no-startup-id dunst
 
+#border gaps
+gaps inner 15
+gaps top 25
 
 
-
+#MUIE i3BAR
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #bar {
