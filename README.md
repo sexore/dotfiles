@@ -8,4 +8,5 @@ Ermm... Akshually 🤓 It's GNU/Linux Arch!
   <li>i3-wm</li>
   <li>polybar</li>
   <li>kitty terminal</li>
+  <li>picom (picom-allusive made by pijulius)</li>
 </ul>
