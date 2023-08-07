@@ -221,6 +221,24 @@ exec_always --no-startup-id dunst -config ~/.dotfiles/.config/dunst/dunstrc
 gaps inner 15
 gaps top 25
 
+#Custom mode for moving windows
+mode "move-windows" {
+
+	bindsym w move up
+	bindsym s move down
+	bindsym a move left
+	bindsym d move right
+
+#If you ever change these please adjust the keybinds to your desired options so you do not get stuck in the given mode like I did... because i didn't have any keybinds to go back in the default mode
+
+	bindsym Escape mode "default"
+	bindsym Return mode "default"
+	bindsym $mod+Shift+w mode "default"
+
+}
+bindsym $mod+Shift+w mode "move-windows"
+
+
 
 #MUIE i3BAR
 # Start i3bar to display a workspace bar (plus the system information i3status
