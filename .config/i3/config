@@ -214,8 +214,8 @@ default_border pixel 0
 #flameshot
 bindsym $mod+Shift+s exec flameshot gui
 
-#dunst
-exec_always --no-startup-id dunst
+#notification manager (dunst)
+exec_always --no-startup-id dunst -config ~/.dotfiles/.config/dunst/dunstrc 
 
 #border gaps
 gaps inner 15
