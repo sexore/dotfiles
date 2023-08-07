@@ -9,4 +9,5 @@ Ermm... Akshually 🤓 It's GNU/Linux Arch!
   <li>polybar</li>
   <li>kitty terminal</li>
   <li>picom</li>
+  <li>dunst</li>
 </ul>
