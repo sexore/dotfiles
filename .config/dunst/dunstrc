@@ -1,10 +1,13 @@
 # See dunst(5) for all configuration options
 
+
+
 [global]
+
     ### Display ###
 
     # Which monitor should the notifications be displayed on.
-    monitor = HDMI-0
+    monitor = 1
 
     # Display notification on focused monitor.  Possible modes are:
     #   mouse: follow mouse pointer
@@ -30,10 +33,10 @@
     height = 150
 
     # Position the notification in the top right corner
-    origin = top-right
+    origin = top-left
 
     # Offset from the origin
-    offset = 10x50
+    offset = 15x40
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -73,7 +76,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.). (X11 only)
-    transparency = 15
+    transparency = 20
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -92,10 +95,10 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 2
+    frame_width = 0
 
     # Defines color of the frame around the notification window.
-    frame_color = "#cc4f70"
+    frame_color = "#171b30"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -250,7 +253,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 15
+    corner_radius = 30
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -313,21 +316,24 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#222222"
+    background = "#171b30" 
+    #"#222222"
     foreground = "#888888"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#285577"
+    background = "#3f185e"
+    #"#285577"
     foreground = "#ffffff"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#900000"
+    background = "#990f28"
+    #"#900000"
     foreground = "#ffffff"
     frame_color = "#ff0000"
     timeout = 0
