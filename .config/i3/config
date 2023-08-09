@@ -196,33 +196,33 @@ bindsym $mod+r mode "resize"
 #							  #
 ###########################################################
 
-#monitor
+#monitor - displays setup
 exec_always --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 165 --primary --left-of HDMI-0
 
-#feh
-exec --no-startup-id feh --bg-scale ~/wallpapers/sunsetcat.png
+#feh - Backgrounds
+exec --no-startup-id feh --bg-scale ~/wallpapers/dawn-of-dragonstar.jpg
 
-#polybar
+#polybar - The Bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 #Compositor (in my case picom) unredir doesn't work as always. (not my fault if you have bad performance)
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 
-#borders
+#borders - The Borders
 default_border pixel 0
 
-#flameshot
+#flameshot - screenshot tool
 bindsym $mod+Shift+s exec flameshot gui
 
-#notification manager (dunst)
+#dunst - The Notification daemon
 exec_always --no-startup-id dunst -config ~/.dotfiles/.config/dunst/dunstrc 
 
 #border gaps
 gaps inner 15
 gaps top 25
 
-#Custom mode for moving windows
-mode "move-windows" {
+#Custom mode for moving windows - Mode "move windows"
+mode "move windows" {
 
 	bindsym w move up
 	bindsym s move down
@@ -236,7 +236,7 @@ mode "move-windows" {
 	bindsym $mod+Shift+w mode "default"
 
 }
-bindsym $mod+Shift+w mode "move-windows"
+bindsym $mod+Shift+w mode "move windows"
 
 
 
