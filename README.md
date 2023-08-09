@@ -11,3 +11,12 @@ Ermm... Akshually 🤓 It's GNU/Linux Arch!
   <li>picom</li>
   <li>dunst</li>
 </ul>
+<hr>
+
+<b><h2>Preview of the rice</h2></b>
+# Sunset cat
+![image](https://github.com/sexore/dotfiles/assets/44409590/baf0c8c6-0394-4616-b2d3-e22713aede58)
+
+
+# Dawn of the Dragonstar referrence (mapped by nebuwua)
+![image](https://github.com/sexore/dotfiles/assets/44409590/d9df696e-c685-4f4e-b697-865fc0df5b13)
