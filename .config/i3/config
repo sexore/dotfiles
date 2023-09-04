@@ -200,7 +200,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 165 --primary --left-of HDMI-0
 
 #feh - Backgrounds
-exec --no-startup-id feh --bg-scale ~/wallpapers/dawn-of-dragonstar.jpg
+exec --no-startup-id feh --bg-scale ~/wallpapers/shinano.png
 
 #polybar - The Bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -226,7 +226,7 @@ mode "move windows" {
 
 	bindsym w move up
 	bindsym s move down
-	bindsym a move left
+
 	bindsym d move right
 
 #If you ever change these please adjust the keybinds to your desired options so you do not get stuck in the given mode like I did... because i didn't have any keybinds to go back in the default mode
