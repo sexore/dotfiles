@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:Arial 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -222,11 +222,11 @@ gaps inner 15
 gaps top 25
 
 #Custom mode for moving windows - Mode "move windows"
-mode "move windows" {
+mode "move window" {
 
 	bindsym w move up
 	bindsym s move down
-
+  bindsym a move left
 	bindsym d move right
 
 #If you ever change these please adjust the keybinds to your desired options so you do not get stuck in the given mode like I did... because i didn't have any keybinds to go back in the default mode
@@ -236,7 +236,7 @@ mode "move windows" {
 	bindsym $mod+Shift+w mode "default"
 
 }
-bindsym $mod+Shift+w mode "move windows"
+bindsym $mod+Shift+w mode "move window"
 
 
 
