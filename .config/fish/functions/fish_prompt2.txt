@@ -1,0 +1,9 @@
+function fish_prompt
+    set -l textcol white
+    set -l bgcol blue
+    set -l arrowcol green
+    set_color $textcol -b $bgcol
+    echo -n " "(basename $PWD)" "
+    set_color $arrowcol -b normal
+    echo -n "⮀ "
+end
