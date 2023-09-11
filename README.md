@@ -27,6 +27,6 @@ Ermm... Akshually 🤓 It's GNU/Linux Arch!
 ![image](https://github.com/sexore/dotfiles/assets/44409590/5b9cf63f-ce38-46d5-b772-d28726b86ae9)
 
 
-# Shinano my Beloved (something tells me i will regret this in the future)
+# weoewtweot
 ![image](https://github.com/sexore/dotfiles/assets/44409590/eddee833-084e-4944-9913-247b351f1971)
 
