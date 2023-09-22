@@ -200,7 +200,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id xrandr --output DP-0 --mode 1920x1080 --rate 165 --primary --left-of HDMI-0
 
 #feh - Backgrounds
-exec --no-startup-id feh --bg-scale ~/wallpapers/shinano.png
+exec --no-startup-id feh --bg-scale ~/wallpapers/skeleton.png
 
 #polybar - The Bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -237,6 +237,12 @@ mode "move window" {
 
 }
 bindsym $mod+Shift+w mode "move window"
+
+#Window Title Alignment (if there is)
+title_align center
+
+#start-up workspaces
+
 
 
 
