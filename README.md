@@ -3,6 +3,7 @@ To My Arch dotfiles
 
 Ermm... Akshually 🤓 It's GNU/Linux Arch!
 
+
 <b>What I'm using on my current rice:</b>
 <ul>
 <b>Window Manager</b>
@@ -29,4 +30,8 @@ Ermm... Akshually 🤓 It's GNU/Linux Arch!
 
 # weoewtweot
 ![image](https://github.com/sexore/dotfiles/assets/44409590/eddee833-084e-4944-9913-247b351f1971)
+
+# 💀
+![image](https://github.com/sexore/dotfiles/assets/44409590/33cfe0e7-d5cd-4c26-953a-f33314569ede)
+
 
