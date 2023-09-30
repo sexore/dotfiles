@@ -35,5 +35,6 @@ Ermm... Akshually 🤓 It's GNU/Linux Arch!
 ![image](https://github.com/sexore/dotfiles/assets/44409590/33cfe0e7-d5cd-4c26-953a-f33314569ede)
 
 # Islands bar
-![image](https://github.com/sexore/dotfiles/assets/44409590/abe83d82-e50f-404b-bfe0-9b0ee3b55a64)
+![image](https://github.com/sexore/dotfiles/assets/44409590/f792baed-fb82-4a1c-beee-ebef950a161d)
+
 
