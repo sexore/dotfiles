@@ -37,4 +37,6 @@ Ermm... Akshually 🤓 It's GNU/Linux Arch!
 # Islands bar
 ![image](https://github.com/sexore/dotfiles/assets/44409590/f792baed-fb82-4a1c-beee-ebef950a161d)
 
+# Mynarco
+![image](https://github.com/sexore/dotfiles/assets/44409590/fd08b5f2-3818-43a4-9fe5-81f68346abac)
 
